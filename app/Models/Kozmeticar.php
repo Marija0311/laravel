@@ -12,7 +12,7 @@ class Kozmeticar extends Model
         'ime',
         'prezime',
         'godRođenja',
-        'broj_telefona',
+        'broj_Telefona',
         'salon_id'
     ];
      public function salon()

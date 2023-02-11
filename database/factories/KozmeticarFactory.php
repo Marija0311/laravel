@@ -18,7 +18,7 @@ class KozmeticarFactory extends Factory
             'ime' => $this->faker->firstName(),
             'prezime' => $this->faker->lastName(),
             'godRođenja' => $this->faker->numberBetween($min = 1960, $max = 2004),
-            'broj_telefona' => $this->faker->phoneNumber(),
+            'broj_Telefona' => $this->faker->phoneNumber(),
             'salon_id' => Salon::factory()
         ];
     }

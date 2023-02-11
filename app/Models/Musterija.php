@@ -11,7 +11,7 @@ class Musterija extends Model
     protected $fillable = [
         'ime',
         'prezime',
-        'broj_telefona',
+        'broj_Telefona',
         'email',
         'kozmeticar_id'
     ];
