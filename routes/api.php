@@ -2,8 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\SalonController;
-use App\Http\Controllers\API\MusterijaController;
+use App\Http\Controllers\SalonController;
+use App\Http\Controllers\MusterijaController;
 use App\Http\Controllers\AuthController;
 
 /*
